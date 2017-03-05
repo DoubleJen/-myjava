@@ -7,7 +7,7 @@ public class Doulbe02 {
 		System.out.println(score);
 		
 		int intScore = (int)(Math.random()*100+1);
-			//100:100­Ó, +1:¦ì²¾
+			//100:100å€‹, +1:ä½ç§»
 		System.out.println(intScore);
 
 		
