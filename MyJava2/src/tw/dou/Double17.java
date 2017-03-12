@@ -4,9 +4,9 @@ public class Double17 {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();//傳回系統時間
-		int [] poker = new int[6]; //0-51都是0
-		for(int i =0; i<6; i++){//i代表洗出幾張
-			int temp = (int)(Math.random()*6);
+		int [] poker = new int[52]; //0-51都是0
+		for(int i =0; i<52; i++){//i代表洗出幾張
+			int temp = (int)(Math.random()*52);
 			//檢查機制避免重複
 			boolean isRepeat = false;
 			for(int j=0; j<i; j++){
