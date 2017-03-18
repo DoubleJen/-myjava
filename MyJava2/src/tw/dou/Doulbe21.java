@@ -6,6 +6,7 @@ public class Doulbe21 {
 	public static void main(String[] args) {
 		int[] a = {0, 1, 2, 3, 4, 5};
 		//method 1:
+		System.out.println(a.length);
 		for (int i=0; i<a.length; i++){
 			System.out.println(a[i]);
 		}
