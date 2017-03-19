@@ -1,5 +1,5 @@
 package tw.dou;
-
+//視窗程式
 import javax.swing.JFrame;//extends JFrame後自動生成
 
 public class Window extends JFrame{

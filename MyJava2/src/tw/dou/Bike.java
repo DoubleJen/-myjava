@@ -2,7 +2,7 @@ package tw.dou;
 //170318類別設計，定義這台Bike
 public class Bike {
 	//private double speed;//腳踏車現在擁有速度這個屬性//private成為封包,Bikedo就看不到
-	double speed;
+	double speed;//Bike有speed這個屬性(has a 擁有概念)
 	int a; //顏色屬性a=0未上色
 	static int counter;//顏色屬性b=0未上色 ,插在b有static
 	

@@ -21,12 +21,14 @@ public class TWId {
 		//suer();(被此建購式省略)
 		char f0 = letters.charAt(area);
 		char f1 = isFemale?'2':'1';//女2 男1
-		String temp = "" + f0 + f1;
+		StringBuffer sb = new StringBuffer("" + f0 + f1);
+		//String temp = "" + f0 + f1;
 		for(int i=0; i<7; i++){
-			temp += (int)(Math.random()*10);
+			sb.append((int)(Math.random()*10));
+			//temp += (int)(Math.random()*10);
 		}
 		for(int i=0; i<10; i++){
-			if(isCheckOK(temp + i)){id =temp +i; break;}			
+			if(isCheckOK(sb.toString() + i)){id =sb.append(i).toString() +i; break;}			
 		}
 	}
 	//身分證字號產生器//////////////////////////////////
