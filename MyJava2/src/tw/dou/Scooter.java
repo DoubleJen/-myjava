@@ -2,7 +2,7 @@ package tw.dou;
 //繼承(把功能強化)
 public class Scooter extends Bike {//Scooter父類別為Bike 摩托車老爸為BIKE
 	Scooter(){
-		//suer();(被此建購式省略)-->沒被指定為this, 偷偷叫BIKE
+		//super();(被此建購式省略)-->沒被指定為this, 偷偷叫BIKE
 		System.out.println("Scooter()");
 	}
 	void upSpeed(){

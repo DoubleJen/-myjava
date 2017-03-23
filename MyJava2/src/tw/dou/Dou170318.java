@@ -7,9 +7,9 @@ public class Dou170318 {
 			a =100;
 			System.out.println("{}:a=" + a);
 		}
-//		static{
-//			System.out.println("static{}");
-//		}
+		static{
+			System.out.println("static{}");
+		}
 		Dou170318(){
 			System.out.println("Double()");
 		}
