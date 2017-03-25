@@ -9,7 +9,7 @@ import javax.swing.JPanel;
 
 public class Window3170319002 extends JFrame{
 	private JButton open, save, exit;//版面設計時擁有has a open, save, exit屬性
-	private MyPainter myPainter;
+	private MyPainter170325001 myPainter;
 	Window3170319002(){//建構式-->物件初始化的過程
 		//suer();(被此建購式省略)-->沒被指定為this
 		super("視窗程式");//title
@@ -18,7 +18,7 @@ public class Window3170319002 extends JFrame{
 		open = new JButton("Open");//new出open
 		save = new JButton("Save");//new出save
 		exit = new JButton("Exit");//new出exit
-		myPainter = new MyPainter();
+		myPainter = new MyPainter170325001();
 		
 		JPanel top =  new JPanel(new FlowLayout());//處理上面的隔間-->為容器
 		top.add(open); top.add(save); top.add(exit);
