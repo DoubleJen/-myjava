@@ -1,6 +1,6 @@
 package tw.dou;
 
-public class Doulbe02 {
+public class Double02 {
 
 	public static void main(String[] args) {
 		double score = Math.random();

@@ -5,10 +5,11 @@ public class Bikedo {
 	public static void main(String[] args) {
 		//System.out.println(Bike.counter);//還沒開始做BIKE
 		Bike b1 = new Bike();//Bike前已定義//建構式建構值//一個類別一個物件只會被呼叫一次
+		System.out.println(b1.a);//b1.a=1
 			//new Bike();//建構式進行物件初始化 fr Bike.java
 		Bike b2 = new Bike();//Bike前已定義, 1.2為double值, 回傳V2
 			//Bike b3 = new Bike(1f);//Bike前已定義, 1f為float值, 回傳V3
-		System.out.println(b1.a);//b1.a=1
+		
 		System.out.println(b2.a);//b2.a=1
 		System.out.println(Bike.counter);//counter不屬於物件, 屬於Bike類別
 		

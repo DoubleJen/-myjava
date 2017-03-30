@@ -9,7 +9,7 @@ public class Double30 {
 }
 
 interface Double301{//interface"介面"骨子裡也是類別(無父子關係), 他就是個認證考試("規格"), 無規定用第幾招實做去考("不會有實作東西"), 所以裡面方法永遠是抽象方法, abstract可加可不加
-	void m1();//抽象方法. 因是給人實做 所以隱含的是public//-->先天式public abstrace
+	void m1();//抽象方法. 因是給人實做 所以隱含的是public//-->先天式public abstract
 	void m2();
 }
 

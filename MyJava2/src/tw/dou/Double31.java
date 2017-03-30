@@ -1,6 +1,6 @@
 package tw.dou;
 //幾何圖形
-public class Doulbe31 {
+public class Double31 {
 
 	public static void main(String[] args) {
 		Shape s1 = new TriShape(3, 4, 5, 4);

@@ -2,13 +2,14 @@ package tw.dou;
 
 import javax.swing.JOptionPane;
 
-public class Double5 {
+public class Double05 {
 
 	public static void main(String[] args) {
 		String input = JOptionPane.showInputDialog("輸入年分");
 						//JOP alt / 輸入視窗
 		
-		int year = Integer.parseInt("input");
+		int year = Integer.parseInt(input);
+		System.out.println(year);
 			//將字串轉換為int
 		
 		

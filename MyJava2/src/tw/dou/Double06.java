@@ -1,6 +1,6 @@
 package tw.dou;
 
-public class Doulbe06 {
+public class Double06 {
 	
 	public static void main(String[] args) {
 		int a = 9, b = 3;

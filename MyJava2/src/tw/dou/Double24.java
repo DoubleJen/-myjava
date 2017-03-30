@@ -1,6 +1,6 @@
 package tw.dou;
 //while迴圈
-public class Doulbe24 {
+public class Double24 {
 
 	public static void main(String[] args) {
 		int a = 1;

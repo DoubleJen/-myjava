@@ -1,7 +1,7 @@
 package tw.dou;
 //1.for-each
 //2.exchange array element(改牌位置
-public class Doulbe21 {
+public class Double21 {
 
 	public static void main(String[] args) {
 		int[] a = {0, 1, 2, 3, 4, 5};
