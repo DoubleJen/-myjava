@@ -1,4 +1,6 @@
 package tw.dou;
+import java.awt.Color;
+
 //視窗程式
 import javax.swing.JFrame;//extends JFrame後自動生成
 
