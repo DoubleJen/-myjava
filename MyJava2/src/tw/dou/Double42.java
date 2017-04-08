@@ -1,5 +1,5 @@
 package tw.dou;
-
+//IO輸出
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileNotFoundException;
