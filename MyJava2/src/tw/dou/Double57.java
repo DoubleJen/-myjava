@@ -22,7 +22,7 @@ public class Double57 {
 				bin.close();
 				
 				
-				Socket socket = new Socket(InetAddress.getByName("10.2.1.121"), 9999);//看對方要佈要跟我講話//可配合cmd netstat /an檢查
+				Socket socket = new Socket(InetAddress.getByName("127.0.0.1"), 9999);//看對方要佈要跟我講話//可配合cmd netstat /an檢查
 				System.out.println("port: ");
 				
 				OutputStream out = socket.getOutputStream();
