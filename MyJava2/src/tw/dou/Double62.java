@@ -46,26 +46,26 @@ public class Double62 {
 //			//<>泛型後,只能放<>泛型定義的東西
 //		System.out.println(set);
 		
-//		TreeSet<String> set = new TreeSet<>();
-//		set.add("1");
-//		set.add("2");
-//		set.add("12");
-//		System.out.println(set);//驗證字串的排序
-//		for(String obj:set){
-//			System.out.println(obj);
-//		}
+		TreeSet<String> set = new TreeSet<>();
+		set.add("1");
+		set.add("2");
+		set.add("12");
+		System.out.println(set);//驗證字串的排序
+		for(String obj:set){
+			System.out.println(obj);
+		}
 		
-		HashSet set = new HashSet();
-		set.add(1);
-		HashSet set2 = new HashSet();
-		set2.add(2);
-		set2.add(3);
-		set2.add(4);
-		set.addAll(set2);
-		System.out.println(set2.size());
-		System.out.println(set2);
-		System.out.println(set.size());
-		System.out.println(set);
+//		HashSet set = new HashSet();
+//		set.add(1);
+//		HashSet set2 = new HashSet();
+//		set2.add(2);
+//		set2.add(3);
+//		set2.add(4);
+//		set.addAll(set2);
+//		System.out.println(set2.size());
+//		System.out.println(set2);
+//		System.out.println(set.size());
+//		System.out.println(set);
 		
 	}
 
