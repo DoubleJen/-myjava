@@ -31,9 +31,6 @@ public class MySignPanel extends JPanel {
 	
 	//1.偵測滑鼠事件mouse event 2.放在資料結構data structure 3.draw出來
 	//方便存取外部屬性方法所以寫成內部類別
-	
-
-	
 	private class MyMouseListener extends MouseAdapter{
 		@Override//點下去再做的
 		public void mousePressed(MouseEvent e) {
